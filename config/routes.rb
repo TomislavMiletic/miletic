@@ -1,4 +1,6 @@
 Miletic::Application.routes.draw do
+  get "staticpages/home"
+  get "staticpages/help"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
